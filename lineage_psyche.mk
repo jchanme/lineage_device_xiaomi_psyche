@@ -12,17 +12,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from alioth device
-$(call inherit-product, device/xiaomi/alioth/device.mk)
+$(call inherit-product, device/xiaomi/psyche/device.mk)
 
-PRODUCT_NAME := lineage_alioth
-PRODUCT_DEVICE := alioth
+PRODUCT_NAME := lineage_psyche
+PRODUCT_DEVICE := psyche
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_BRAND := POCO
-PRODUCT_MODEL := POCO F3
+PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL := Xiaomi 12X
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="alioth_global-user 11 RKQ1.200826.002 V12.5.4.0.RKHMIXM release-keys"
+    PRIVATE_BUILD_DESC="psyche-user 11 RKQ1.200826.002 V13.0.12.0.RLDCNXM release-keys"
 
-BUILD_FINGERPRINT := Redmi/alioth_global/alioth:11/RKQ1.200826.002/V12.5.4.0.RKHMIXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/psyche/psyche:11/RKQ1.200826.002/V13.0.12.0.RLDCNXM:user/release-keys
