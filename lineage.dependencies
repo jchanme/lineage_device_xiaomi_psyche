@@ -1,6 +1,6 @@
 [
   {
-    "repository": "psyche_device_xiaomi_sm8250-common",
+    "repository": "lineage_device_xiaomi_sm8250-common",
     "target_path": "device/xiaomi/sm8250-common"
   }
 ]
